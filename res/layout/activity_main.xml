@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   >
+
+     <com.orr.uppapon.MainActivityView
+         android:id="@+id/MainActivityView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:fillViewport="true" />
+   
+     <Button
+        android:id="@+id/playB"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+      
+        android:layout_marginTop="380dp" 
+        android:layout_marginBottom="230dp" 
+        android:background="@drawable/custombutton" />
+     <Button
+        android:id="@+id/settingB"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_marginTop="560dp" 
+        android:layout_marginBottom="100dp" 
+         android:background="@drawable/custombutton2" />
+       />
+    
+
+</RelativeLayout>
